@@ -4,7 +4,7 @@
 1、首先将数据库文件执行，然后去后端更改数据库相关信息  
 2、前端使用vue脚手架,代码在wtht_vue,需要使用vscode/cursor运行,打开该项目,点击wtht_vue，右键在集成终端中打开，后续操作如下：  
 输入 npm install 安装需要的依赖文件    
-![image](https://github.com/user-attachments/assets/626fb32e-fe54-49ef-8185-522560ca07b6)    
+<img src="https://github.com/user-attachments/assets/626fb32e-fe54-49ef-8185-522560ca07b6" width="100%" alt="安装依赖">  
 输入 npm run serve 即可运行   
-![image](https://github.com/user-attachments/assets/ad268971-1f3c-4ce7-b83a-14471bf92dce)    
+<img src="https://github.com/user-attachments/assets/ad268971-1f3c-4ce7-b83a-14471bf92dce" width="40%" alt="项目运行">  
 3、后端使用spring boot，代码在wtht_admin部分，使用idea打开，直接运行即可
