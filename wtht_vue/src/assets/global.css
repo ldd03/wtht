@@ -1,0 +1,35 @@
+*{
+     margin:0;
+     padding:0;
+   }
+
+/* 通用筛选按钮样式 */
+.filter-btn {
+  background-color: rgb(64, 158, 255) !important;
+  color: #fff !important;
+  border: none !important;
+  transition: background 0.2s;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: rgb(121, 187, 255) !important;
+  color: #fff !important;
+}
+
+/* 预约按钮优化蓝色渐变样式 */
+.reserve-btn {
+  background: linear-gradient(90deg, #3a8dde 0%, #409eff 50%, #5cc6ff 100%) !important;
+  color: #fff !important;
+  border: none !important;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(64,158,255,0.12);
+  letter-spacing: 2px;
+  border-radius: 8px;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.reserve-btn:hover,
+.reserve-btn:focus {
+  background: linear-gradient(90deg, #337ecc 0%, #409eff 60%, #66b1ff 100%) !important;
+  color: #fff !important;
+  box-shadow: 0 4px 16px rgba(64,158,255,0.18);
+}
